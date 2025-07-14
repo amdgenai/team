@@ -2,6 +2,408 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+author_profile: false
+title: "AMD AI Research"
+header:
+  overlay_color: "#000"
+  overlay_image: /assets/images/background.avif
+  overlay_filter: 0.1
+excerpt: "Building the future of AI research at AMD"
+permalink: /
 ---
+
+<style>
+    .page__hero--overlay {
+    min-height: 50vh; /* 可选：控制 hero 的整体高度 */
+    }
+
+    /* 主标题样式 */
+    .page__hero--overlay h1 {
+    margin-bottom: 0.5rem; /* 主标题和副标题的距离 */
+    }
+
+    /* 副标题（excerpt）样式 */
+    .page__hero--overlay .page__lead {
+    margin-top: 0;         /* 紧贴主标题 */
+    margin-bottom: 2rem;   /* 和按钮拉开距离 */
+    font-size: 1.25rem;    /* 可选：调大一点 */
+    }
+
+    /* 按钮样式可选 */
+    .page__hero--overlay .btn {
+    margin-top: 1rem;      /* 确保按钮和副标题有间距 */
+    }
+
+    .section-header {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #111;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    }
+</style>
+
+
+<div class="section-header">News</div>
+
+<div class="news-section">
+{% for item in site.data.news %}
+<div class="news-card {{ item.background_class }}">
+    <div class="news-card__content">
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.excerpt }}</p>
+    <a href="{{ item.url }}" class="news-card__btn">{{ item.btn_label }} →</a>
+    </div>
+</div>
+{% endfor %}
+</div>
+
+<style>
+    .news-section {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    justify-content: center; /* 让卡片水平居中 */
+    }
+      
+    .news-card {
+    position: relative;
+    width: calc(33% - 1.2rem);
+    max-height: 180px;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 0.9rem;
+    }
+      
+    .news-card__content {
+    position: relative;
+    z-index: 1;
+    padding: 0.0rem 0.75rem 0.2rem;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    }
+      
+    .news-card__btn {
+    color: #ffffff !important;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    }
+    
+    .news-card__btn:hover {
+    text-decoration: underline;
+    }
+      
+    /* 背景图片样式，根据 background_class 匹配 */
+    .card-bg-1 {
+    background: url('/assets/images/bg-1.png') center/cover no-repeat;
+    }
+      
+    .card-bg-2 {
+    background: url('/assets/images/bg-2.png') center/cover no-repeat;
+    }
+      
+    .card-bg-3 {
+    background: url('/assets/images/bg-3.png') center/cover no-repeat;
+    }
+</style>
+
+<section class="mission-section">
+    <div class="mission-content">
+      <p>
+        AMD AI Research is committed to pushing the boundaries of artificial intelligence by bridging fundamental research with real-world applications. Our work empowers developers and customers to create faster, smarter, and more efficient systems.
+      </p>
+      <p>
+        Through close collaboration with the global research community, we advance state-of-the-art models, benchmarks, and open-source tools, while driving innovation at the intersection of hardware and software for large-scale AI workloads.
+      <p class="small-text">
+        AMD AI Research is part of AMD. To learn more about AMD, visit
+        <a href="https://www.amd.com/en.html">AMD</a>.
+      </p>
+
+    <img src="/assets/images/amd-twa-logo-lockup.avif" alt="Logo" class="mission-logo">
+    </div>
+  </section>
+
+<style>
+    .small-text {
+    font-size: 0.7rem !important;
+    color: #999; /* 如果也想变浅一点 */
+    }
+
+    .mission-logo {
+    position: absolute;
+    bottom: 1rem;
+    left: 5rem;
+    max-width: 160px;
+    height: auto;
+    }
+
+    .mission-section {
+    position: relative;
+    background: #eaecf0; /* 深红背景 */
+    padding: 4rem 1rem;
+    text-align: center;
+
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    }
+      
+    .mission-section .mission-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #0e0d0d;
+    }
+      
+    .mission-section .mission-content p {
+    margin-bottom: 1rem;
+    }
+    
+    .mission-section .mission-content a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    .mission-section .mission-content a:hover {
+    text-decoration: underline;
+    }
+</style>
+
+<div class="section-header">Recent Blogs</div>
+
+
+<div class="blog-list">
+{% assign blogs = site.data.blogs | slice: 0,3 %}
+{% for blog in blogs %}
+<div class="blog-card" style="background-image: url('{{ blog.background_image }}')">
+    <a href="{{ blog.url }}" class="blog-item" target="_blank">
+    <div class="blog-title">{{ blog.title }}</div>
+    <div class="blog-meta">{{ blog.date }}</div>
+    <div class="blog-excerpt">{{ blog.excerpt }}</div></a>
+</div>
+{% endfor %}
+</div>
+
+<div class="text-center">
+    <a href="/blogs/" class="btn btn--primary">Read All Blogs</a>
+  </div>
+
+<style>
+    .text-center {
+    text-align: center;
+    margin-top: 1rem;
+    }
+
+    .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+    }
+      
+    .blog-item {
+    display: block;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s ease;
+    }
+    
+    .blog-item:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .blog-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    }
+    
+    .blog-meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.2rem;
+    }
+    
+    .blog-excerpt {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 0.5rem;
+    }
+
+    .blog-card {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+    }
+      
+    .blog-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); /* 调暗或透明遮罩 */
+    z-index: 0;
+    }
+      
+    .blog-card > * {
+    position: relative;
+    z-index: 1;
+    }
+
+    .blog-item {
+    text-decoration-color: #000 !important;
+    color: #000 !important;
+    }
+      
+    .blog-item:hover {
+    text-decoration-color: #666;
+    color: #666;
+    }
+</style>
+
+
+<div class="section-header">Recent Publications</div>
+
+<div class="pub-grid">
+{% assign pubs = site.data.publications | slice: 0,3 %}
+{% for pub in pubs %}
+    <div class="pub-card">
+    <img src="{{ pub.image }}" alt="{{ pub.title }}">
+    <div class="pub-content">
+        <span class="pub-tag">Publication</span>
+        <div class="pub-year">{{ pub.year }}</div>
+        <div class="pub-title">{{ pub.title }}</div>
+        <div class="pub-desc">{{ pub.description }}</div>
+        <a href="{{ pub.url }}" target="_blank" class="btn btn--primary">Read more</a>
+    </div>
+    </div>
+{% endfor %}
+</div>
+
+<div class="text-center">
+    <a href="/publications/" class="btn btn--primary">Read All Publications</a>
+  </div>
+
+<style>
+    .pub-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+    }
+      
+    .pub-card {
+    flex: 1 1 calc(33% - 1rem);
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .pub-card img {
+    width: 100%;
+    height: 160px;
+    }
+    
+    .pub-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-grow: 1; /* 让它填充剩余高度 */
+    }
+
+    .pub-content > .btn {
+    margin-top: auto; /* 挤到最底下 */
+    }
+    
+    .pub-tag {
+    font-size: 0.75rem;
+    background: #eee;
+    color: #333;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
+    }
+    
+    .pub-year {
+    font-size: 0.9rem;
+    color: #555;
+    }
+    
+    .pub-title {
+    font-weight: bold;
+    }
+    
+    .pub-desc {
+    font-size: 0.85rem;
+    color: #666;
+    }
+</style>
+
+<section id="team" class="team">
+<div class="section-header">Team</div>
+
+<div class="team-grid">
+{% for member in site.data.team %}
+  <div class="team-member">
+    <img src="{{ member.avatar }}" alt="{{ member.name }}">
+    <div class="team-info">
+      <div class="team-name">{{ member.name }}</div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+</section>
+
+<style>
+    .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    }
+      
+    .team-member {
+    flex: 1 1 calc(25% - 2rem);
+    min-width: 150px;
+    text-align: center;
+    }
+      
+    .team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    }
+      
+    .team-info .team-name {
+    font-weight: 600;
+    font-size: 1rem;
+    }
+    
+    .team-info .team-title {
+    font-size: 0.85rem;
+    color: #666;
+    }      
+</style>

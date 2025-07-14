@@ -1,0 +1,29 @@
+- title: "TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games"
+  year: 2025
+  description: "TTT-Bench uncovers the hidden blind spots of today’s smartest AI, challenging them with simple, human-intuitive games — and showing that even the best models often fail where humans excel effortlessly."
+  image: "/assets/images/pubs/ttt.png"
+  url: "https://arxiv.org/abs/2506.10209"
+
+- title: "Self-Taught Agentic Long Context Understanding"
+  year: ACL 2025 Main Conference
+  description: "AgenticLU unlocks the full potential of LLMs on long-context queries, combining self-driven clarifications and smart context retrieval to deliver robust, scalable, and state-of-the-art reasoning."
+  image: "/assets/images/pubs/agentic_long.png"
+  url: "https://arxiv.org/abs/2502.15920"
+
+- title: "TaDA: Training-free recipe for Decoding with Adaptive KV Cache Compression and Mean-centering"
+  year: ACL 2025 Industry Track (Oral)
+  description: "TaDA slashes KV cache memory usage by over 70% without sacrificing accuracy — enabling longer, smarter, and more scalable LLM inference with zero retraining."
+  image: "/assets/images/pubs/TaDA.png"
+  url: "https://arxiv.org/abs/2506.04642"
+
+- title: "Agent Laboratory: Using LLM Agents as Research Assistants"
+  year: 2025
+  description: "Agent Laboratory revolutionizes scientific discovery by automating the entire research workflow — empowering researchers to focus on ideas, not grunt work, with up to 84% lower cost and state-of-the-art results."
+  image: "/assets/images/pubs/agent_lab.png"
+  url: "https://arxiv.org/abs/2501.04227"
+
+- title: "SoftVQ-VAE: Efficient 1-Dimensional Continuous Tokenizer"
+  year: CVPR 2025
+  description: "SoftVQ-VAE unlocks fast, efficient, and high-quality image generation with ultra-compact tokenization — delivering up to 55× faster inference and competitive FID, all with fewer training iterations."
+  image: "/assets/images/pubs/softvq.png"
+  url: "https://arxiv.org/abs/2412.10958"

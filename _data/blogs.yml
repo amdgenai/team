@@ -1,0 +1,27 @@
+- title: "Instella-T2I"
+  excerpt: "We introduce 1D binary image latents for text-to-image generation, achieving up to 32× token reduction and competitive 1024×1024 performance with faster, scalable training and inference."
+  date: "July 20, 2025"
+  url: "https://arxiv.org/abs/2506.21022"
+
+- title: "Instella-Long"
+  excerpt: "AMD announces Instella-Long, a fully open 3B-parameter language model supporting 128K context length, trained on 64 Instinct MI300X GPUs with open-sourced weights, data, and code, showcasing AMD hardware’s scalability and enabling community-driven long-context AI research."
+  date: "June 11, 2025"
+  url: "https://rocm.blogs.amd.com/artificial-intelligence/instella-long-context/README.html"
+  background_image: "/assets/images/blog-bg-long.png"
+
+- title: "Instella-VL-1B"
+  excerpt: "AMD introduces Instella-VL-1B, its first open-source vision-language model trained on MI300X GPUs, combining a CLIP-based vision encoder with a 1B-parameter language model and outperforming comparable open-weight models on general and OCR benchmarks, with full weights, data, and code released for the community."
+  date: "March 07, 2025"
+  url: "https://rocm.blogs.amd.com/artificial-intelligence/Instella-BL-1B-VLM/README.html"
+  background_image: "/assets/images/blog-bg-vl.png"
+
+- title: "Instella-3B"
+  excerpt: "AMD introduces Instella, a fully open family of 3B-parameter language models trained from scratch on MI300X GPUs, outperforming similar open models and achieving competitive performance with state-of-the-art open-weight models, with all weights, data, and code released to the community."
+  date: "March 05, 2025"
+  url: "https://rocm.blogs.amd.com/artificial-intelligence/introducing-instella-3B/README.html"
+  background_image: "/assets/images/blog-bg-ins3.png"
+
+- title: "AMD-OLMo-1B"
+  excerpt: "AMD introduces OLMo, a fully open series of 1B-parameter language models trained from scratch on MI250 GPUs with 1.3T tokens, featuring pre-trained, SFT, and DPO checkpoints, empowering the AI community with reproducible training details and efficient deployment on AMD hardware."
+  date: "October 31, 2024"
+  url: "https://www.amd.com/en/developer/resources/technical-articles/introducing-the-first-amd-1b-language-model.html"
