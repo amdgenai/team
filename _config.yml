@@ -17,7 +17,7 @@ logo: /assets/images/logo.jpg
 title: ""
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  AMD AI Research explores cutting-edge artificial intelligence research and development, advancing the future of AI through open-source models, benchmarks, and innovative hardware-software co-design. Learn more about our publications, team, and projects.
+  AMD GenAI advances AI with open-source foundation models optimized for AMD GPUs, empowering researchers with efficient, cutting-edge tools.
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: contrast
@@ -59,15 +59,15 @@ plugins:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/AMD-AIG-AIMA"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 defaults:
   # _pages

@@ -3,5 +3,5 @@ main:
     url: /blogs/
   - title: "Publications"
     url: /publications/
-  - title: "Team"
-    url: "#team"
+  # - title: "Team"
+  #   url: "#team"
