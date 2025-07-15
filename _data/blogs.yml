@@ -9,6 +9,12 @@
   url: "https://rocm.blogs.amd.com/artificial-intelligence/instella-long-context/README.html"
   background_image: "/assets/images/blog-bg-long.png"
 
+- title: "VeRL on AMD GPUs"
+  excerpt: "Overview of Volcano Engine Reinforcement Learning (verl) for large-scale RLHF on AMD Instinct GPUs. Learn about AMD-specific optimizations, Docker setup, and training scripts for single-node and multi-node deployments, plus performance benchmarks on MI300X."
+  date: "April 24, 2025"
+  url: "https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale/README.html"
+  background_image: "/assets/images/blog-bg-verl.png"
+
 - title: "Instella-VL-1B"
   excerpt: "Introducing Instella-VL-1B, the first open-source vision-language model trained on MI300X GPUs, combining a CLIP-based vision encoder with a 1B-parameter language model and outperforming comparable open-weight models on general and OCR benchmarks, with full weights, data, and code released for the community."
   date: "March 07, 2025"
