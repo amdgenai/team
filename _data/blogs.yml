@@ -1,7 +1,8 @@
 - title: "Instella-T2I"
   excerpt: "Introducing 1D binary image latents for text-to-image generation, achieving up to 32× token reduction and competitive 1024×1024 performance with faster, scalable training and inference."
-  date: "July 20, 2025"
-  url: "https://arxiv.org/abs/2506.21022"
+  date: "July 15, 2025"
+  url: "https://rocm.blogs.amd.com/artificial-intelligence/instella-t2i/README.html"
+  background_image: "/assets/images/blog-bg-t2i.png"
 
 - title: "Instella-Long"
   excerpt: "Introducing Instella-Long, a fully open 3B-parameter language model supporting 128K context length, trained on 64 Instinct MI300X GPUs with open-sourced weights, data, and code, showcasing AMD hardware’s scalability and enabling community-driven long-context AI research."
