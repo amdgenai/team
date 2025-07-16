@@ -104,15 +104,13 @@ permalink: /
       
     /* 背景图片样式，根据 background_class 匹配 */
     .card-bg-1 {
-    background: url('/team/assets/images/bg-1.png') center/cover no-repeat;
+    background: url('{{ site.baseurl }}/assets/images/bg-1.png') center/cover no-repeat;
     }
-      
     .card-bg-2 {
-    background: url('/team/assets/images/bg-2.png') center/cover no-repeat;
+    background: url('{{ site.baseurl }}/assets/images/bg-2.png') center/cover no-repeat;
     }
-      
     .card-bg-3 {
-    background: url('/team/assets/images/bg-3.png') center/cover no-repeat;
+    background: url('{{ site.baseurl }}/assets/images/bg-3.png') center/cover no-repeat;
     }
 </style>
 
@@ -125,7 +123,7 @@ permalink: /
         <a href="https://www.amd.com/en.html">AMD</a>.
       </p>
 
-    <img src="/assets/images/amd-twa-logo-lockup.avif" alt="Logo" class="mission-logo">
+      <img src="{{ site.baseurl }}/assets/images/amd-twa-logo-lockup.avif" alt="Logo" class="mission-logo">
     </div>
   </section>
 
@@ -182,7 +180,7 @@ permalink: /
 <div class="blog-list">
 {% assign blogs = site.data.blogs | slice: 0,3 %}
 {% for blog in blogs %}
-<div class="blog-card" style="background-image: url('{{ blog.background_image }}')">
+<div class="blog-card" style="background-image: url('{{ site.baseurl }}{{ blog.background_image }}')">
     <a href="{{ blog.url }}" class="blog-item" target="_blank">
     <div class="blog-title">{{ blog.title }}</div>
     <div class="blog-meta">{{ blog.date }}</div>
@@ -192,8 +190,8 @@ permalink: /
 </div>
 
 <div class="text-center">
-    <a href="/blogs/" class="btn btn--primary">Read All Blogs</a>
-  </div>
+    <a href="{{ site.baseurl }}/blogs/" class="btn btn--primary">Read All Blogs</a>
+</div>
 
 <style>
     .text-center {
@@ -282,7 +280,7 @@ permalink: /
 {% assign pubs = site.data.publications | slice: 0,3 %}
 {% for pub in pubs %}
     <div class="pub-card">
-    <img src="{{ pub.image }}" alt="{{ pub.title }}">
+    <img src="{{ site.baseurl }}{{ pub.image }}" alt="{{ pub.title }}">
     <div class="pub-content">
         <span class="pub-tag">Publication</span>
         <div class="pub-year">{{ pub.year }}</div>
@@ -295,7 +293,7 @@ permalink: /
 </div>
 
 <div class="text-center">
-    <a href="/publications/" class="btn btn--primary">Read All Publications</a>
+    <a href="{{ site.baseurl }}/publications/" class="btn btn--primary">Read All Publications</a>
   </div>
 
 <style>
