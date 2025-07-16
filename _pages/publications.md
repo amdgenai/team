@@ -10,7 +10,7 @@ title: "Publications"
 {% assign pubs = site.data.publications %}
 {% for pub in pubs %}
     <div class="pub-card">
-    <img src="{{ pub.image }}" alt="{{ pub.title }}">
+    <img src="{{ site.baseurl }}{{ pub.image }}" alt="{{ pub.title }}">
     <div class="pub-content">
         <span class="pub-tag">Publication</span>
         <div class="pub-year">{{ pub.year }}</div>
