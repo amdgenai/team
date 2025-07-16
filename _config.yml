@@ -18,6 +18,7 @@ title: ""
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   AMD GenAI advances AI with open-source foundation models optimized for AMD GPUs, empowering researchers with efficient, cutting-edge tools.
+baseurl: "/team" # the subpath of your site, e.g. /blog
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: contrast
