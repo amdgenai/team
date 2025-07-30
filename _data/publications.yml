@@ -1,3 +1,9 @@
+- title: "SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers"
+  year: 2025
+  description: "SAND-Math, a scalable pipeline that generates and enhances challenging math problems, enabling LLMs to achieve state-of-the-art results on difficult mathematical reasoning benchmarks like AIME25."
+  image: "/assets/images/pubs/sand.png"
+  url: "https://arxiv.org/abs/2507.20527"
+
 - title: "TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games"
   year: 2025
   description: "TTT-Bench uncovers the hidden blind spots of today’s smartest AI, challenging them with simple, human-intuitive games — and showing that even the best models often fail where humans excel effortlessly."
