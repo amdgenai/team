@@ -1,3 +1,9 @@
+- title: "GEAK: Triton Kernel AI Agent"
+  excerpt: "Introducing GEAK, AMD’s AI-driven Triton kernel generation framework and evaluation benchmarks. GEAK leverages frontier LLMs with inference-time scaling to automatically produce efficient, accurate GPU kernels for AMD Instinct™ GPUs, achieving up to 63% correctness and 2.59× speedups over reference implementations."
+  date: "August 1, 2025"
+  url: "https://rocm.blogs.amd.com/software-tools-optimization/triton-kernel-ai/README.html"
+  background_image: "/assets/images/blog-bg-geak.png"
+
 - title: "Instella-T2I"
   excerpt: "Introducing 1D binary image latents for text-to-image generation, achieving up to 32× token reduction and competitive 1024×1024 performance with faster, scalable training and inference."
   date: "July 15, 2025"
