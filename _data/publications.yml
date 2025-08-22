@@ -5,7 +5,7 @@
   url: "https://arxiv.org/abs/2507.20527"
 
 - title: "TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games"
-  year: 2025
+  year: EMNLP 2025 Main Conference
   description: "TTT-Bench uncovers the hidden blind spots of today’s smartest AI, challenging them with simple, human-intuitive games — and showing that even the best models often fail where humans excel effortlessly."
   image: "/assets/images/pubs/ttt.png"
   url: "https://arxiv.org/abs/2506.10209"
@@ -35,13 +35,13 @@
   url: "https://arxiv.org/abs/2505.22980"
 
 - title: "KeyVID: Keyframe-Aware Video Diffusion for Audio-Synchronized Visual Animation"
-  year: 2025
+  year: ICCV 2025 Gen4AVC Workshop
   description: "KeyVID leverages audio-aware keyframes and motion interpolation to generate synchronized, high-quality audio-to-visual animations with improved dynamic motion handling."
   image: "/assets/images/pubs/keyvid.png"
   url: "https://arxiv.org/abs/2505.22981"
 
 - title: "Agent Laboratory: Using LLM Agents as Research Assistants"
-  year: 2025
+  year: EMNLP 2025 Findings
   description: "Agent Laboratory revolutionizes scientific discovery by automating the entire research workflow — empowering researchers to focus on ideas, not grunt work, with up to 84% lower cost and state-of-the-art results."
   image: "/assets/images/pubs/agent_lab.png"
   url: "https://arxiv.org/abs/2501.04227"
