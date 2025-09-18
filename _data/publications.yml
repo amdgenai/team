@@ -17,7 +17,7 @@
   url: "https://arxiv.org/abs/2506.04642"
 
 - title: "Unleashing Hour-Scale Video Training for Long Video-Language Understanding"
-  year: 2025
+  year: NeurIPS 2025 (Spotlight)
   description: “Hour-LLaVA, built on the new VideoMarathon dataset, enables efficient training and inference on hour-long videos and achieves SOTA on long-form video-language tasks.”
   image: "/assets/images/pubs/long_video.png"
   url: "https://arxiv.org/abs/2506.05332"
