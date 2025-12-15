@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "tzinfo-data", platforms: [:mswin, :mingw, :x64_mingw, :jruby]
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Note: wdm gem removed due to Ruby 3.4 incompatibility (only needed for live-reload)
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

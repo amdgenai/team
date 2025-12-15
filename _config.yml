@@ -28,6 +28,16 @@ favicon: /assets/images/favicon.ico
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll
+
+# Sass settings - silence deprecation warnings from theme
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - slash-div
+    - if-function
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show

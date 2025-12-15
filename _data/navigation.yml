@@ -5,7 +5,7 @@ main:
     url: /publications/
   - title: "Models"
     url: /models/
-  - title: "Datasets & Code"
+  - title: "Datasets"
     url: /datasets/
-  # - title: "Team"
-  #   url: "#team"
+  - title: "Code"
+    url: /code/

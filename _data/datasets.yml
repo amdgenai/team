@@ -1,0 +1,30 @@
+# AMD GenAI Datasets on Hugging Face
+- name: "CaptionQA"
+  description: "Utility-based benchmark with 33K+ questions across 4 domains for evaluating caption quality"
+  url: "https://huggingface.co/datasets/Borise/CaptionQA"
+  tags: ["benchmark", "multimodal", "captions"]
+
+- name: "SAND-Post-Training-Dataset"
+  description: "High-quality synthetic reasoning dataset with 27K math and science problems for fine-tuning LLMs"
+  url: "https://huggingface.co/datasets/amd/SAND-Post-Training-Dataset"
+  tags: ["math", "science", "reasoning", "synthetic"]
+
+- name: "Instella-Long"
+  description: "Long-context training data for Instella models supporting 128K context length"
+  url: "https://huggingface.co/datasets/amd/Instella-Long"
+  tags: ["long-context", "128K", "training"]
+
+- name: "SAND-MATH"
+  description: "Synthetic math dataset for training reasoning models on AMD GPUs"
+  url: "https://huggingface.co/datasets/amd/SAND-MATH"
+  tags: ["math", "reasoning", "synthetic"]
+
+- name: "Instella-GSM8K-synthetic"
+  description: "Synthetic GSM8K-style math problems for Instella model training"
+  url: "https://huggingface.co/datasets/amd/Instella-GSM8K-synthetic"
+  tags: ["math", "GSM8K", "synthetic"]
+
+- name: "TTT-Bench"
+  description: "Benchmark for evaluating LLM reasoning with 412 novel Tic-Tac-Toe-style game questions across 4 game types"
+  url: "https://huggingface.co/datasets/amd/TTT-Bench"
+  tags: ["benchmark", "reasoning", "games"]

@@ -1,0 +1,16 @@
+# AMD GenAI Code Repositories
+
+- name: "CaptionQA"
+  description: "Utility-based benchmark for measuring how well image captions preserve image-level information"
+  url: "https://github.com/bronyayang/CaptionQA"
+  tags: ["benchmark", "evaluation", "multimodal"]
+
+- name: "APRIL"
+  description: "Active Partial Rollouts in RL to tame long-tail generation, achieving 44% throughput improvement"
+  url: "https://github.com/RLsys-Foundation/APRIL"
+  tags: ["RL", "training", "optimization"]
+
+- name: "Agent-Laboratory"
+  description: "LLM agents as research assistants for automated scientific discovery"
+  url: "https://github.com/SamuelSchmidgall/AgentLaboratory"
+  tags: ["agents", "research", "automation"]

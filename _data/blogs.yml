@@ -1,5 +1,17 @@
+- title: "SAND-Math: Building a 32B Reasoning Model with Synthetic Data"
+  excerpt: "Building a state-of-the-art 32B reasoning model on AMD Instinct™ MI325X GPUs using only synthetic data. SAND-MathScience-DeepSeek-Qwen32B achieves 78.33% on AIME25, surpassing Qwen3-32B, with fully open-sourced model weights, datasets, and training code."
+  date: "December 06, 2025"
+  url: "https://rocm.blogs.amd.com/artificial-intelligence/sand-math/README.html"
+  background_image: "/assets/images/blog-bg-sand.png"
+
+- title: "slime: SGLang-Native RL Framework on AMD GPUs"
+  excerpt: "AMD provides Day-0 support for slime, the SGLang-native RL framework verified for large-scale MoE models up to 355B parameters. Features APRIL optimization achieving 40% throughput improvement, Docker deployment, and multi-turn kernel-agent training on AMD Instinct™ GPUs."
+  date: "September 25, 2025"
+  url: "https://rocm.blogs.amd.com/artificial-intelligence/slime/README.html"
+  background_image: "/assets/images/blog-bg-slime.png"
+
 - title: "Instella-Math"
-  excerpt: "Introducing Instella-Math — AMD’s first fully open reasoning language model, trained end-to-end with long chain-of-thought reinforcement learning on 32 MI300X GPUs. Optimized for complex reasoning and math, with all code, weights, and datasets released for the community."
+  excerpt: "Introducing Instella-Math — AMD's first fully open reasoning language model, trained end-to-end with long chain-of-thought reinforcement learning on 32 MI300X GPUs. Optimized for complex reasoning and math, with all code, weights, and datasets released for the community."
   date: "August 9, 2025"
   url: "https://rocm.blogs.amd.com/artificial-intelligence/instella-math-language/README.html"
   background_image: "/assets/images/blog-bg-math.png"

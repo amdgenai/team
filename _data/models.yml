@@ -1,0 +1,73 @@
+# AMD GenAI Models on Hugging Face
+
+- name: "SAND-Math-Qwen2.5-32B"
+  description: "State-of-the-art 32B reasoning model fine-tuned on 14K synthetic math samples, outperforming models trained on 5-50x larger datasets"
+  url: "https://huggingface.co/amd/SAND-Math-Qwen2.5-32B"
+  tags: ["reasoning", "math", "32B"]
+  type: "model"
+
+- name: "SAND-MathScience-DeepSeek-Qwen32B"
+  description: "32B reasoning model achieving 78.33% on AIME25, surpassing Qwen3-32B with only 27K synthetic training samples"
+  url: "https://huggingface.co/amd/SAND-MathScience-DeepSeek-Qwen32B"
+  tags: ["reasoning", "math", "science", "32B"]
+  type: "model"
+
+- name: "Instella-3B-Math-SFT"
+  description: "SFT version of Instella-3B optimized for mathematical reasoning tasks"
+  url: "https://huggingface.co/amd/Instella-3B-Math-SFT"
+  tags: ["math", "3B", "SFT"]
+  type: "model"
+
+- name: "Instella-3B-Math"
+  description: "AMD's first fully open reasoning model trained with long chain-of-thought RL on MI300X GPUs"
+  url: "https://huggingface.co/amd/Instella-3B-Math"
+  tags: ["reasoning", "math", "3B", "RL"]
+  type: "model"
+
+- name: "Instella-3B-Long-Instruct"
+  description: "Instruction-tuned 3B model supporting 128K context length for long-context tasks"
+  url: "https://huggingface.co/amd/Instella-3B-Long-Instruct"
+  tags: ["long-context", "3B", "128K", "instruct"]
+  type: "model"
+
+- name: "Instella-3B-Instruct"
+  description: "Instruction-tuned version of Instella-3B for chat and instruction following"
+  url: "https://huggingface.co/amd/Instella-3B-Instruct"
+  tags: ["language-model", "3B", "instruct"]
+  type: "model"
+
+- name: "Instella-3B-SFT"
+  description: "Supervised fine-tuned version of Instella-3B base model"
+  url: "https://huggingface.co/amd/Instella-3B-SFT"
+  tags: ["language-model", "3B", "SFT"]
+  type: "model"
+
+- name: "Instella-3B"
+  description: "Fully open 3B language model trained from scratch on MI300X GPUs"
+  url: "https://huggingface.co/amd/Instella-3B"
+  tags: ["language-model", "3B"]
+  type: "model"
+
+- name: "Instella-3B-Stage1"
+  description: "Stage 1 pre-training checkpoint of Instella-3B model"
+  url: "https://huggingface.co/amd/Instella-3B-Stage1"
+  tags: ["language-model", "3B", "pretrain"]
+  type: "model"
+
+- name: "AMD-OLMo-1B-SFT-DPO"
+  description: "DPO-aligned version of AMD-OLMo-1B for improved helpfulness and safety"
+  url: "https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO"
+  tags: ["language-model", "1B", "DPO"]
+  type: "model"
+
+- name: "AMD-OLMo-1B-SFT"
+  description: "Supervised fine-tuned version of AMD-OLMo-1B"
+  url: "https://huggingface.co/amd/AMD-OLMo-1B-SFT"
+  tags: ["language-model", "1B", "SFT"]
+  type: "model"
+
+- name: "AMD-OLMo-1B"
+  description: "Fully open 1B language model trained on MI250 GPUs with 1.3T tokens"
+  url: "https://huggingface.co/amd/AMD-OLMo-1B"
+  tags: ["language-model", "1B"]
+  type: "model"

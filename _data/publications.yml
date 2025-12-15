@@ -1,5 +1,17 @@
-- title: "SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers"
+- title: "CaptionQA: Is Your Caption as Useful as the Image Itself?"
   year: 2025
+  description: "CaptionQA is a utility-based benchmark evaluating caption quality across 4 domains with 33,027 annotated questions, revealing up to 32% gap between image and caption utility in state-of-the-art MLLMs."
+  image: "/assets/images/pubs/captionqa.png"
+  url: "https://arxiv.org/abs/2511.21025"
+
+- title: "APRIL: Active Partial Rollouts in Reinforcement Learning to Tame Long-tail Generation"
+  year: 2025
+  description: "APRIL mitigates long-tail inefficiency in RL training by over-provisioning rollout requests, recycling incomplete responses, and reducing GPU idle time — achieving up to 44% throughput improvement and 8% higher accuracy across GRPO, DAPO, and GSPO algorithms."
+  image: "/assets/images/pubs/april.png"
+  url: "https://arxiv.org/abs/2509.18521"
+
+- title: "SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers"
+  year: NeurIPS 2025 MATH-AI Workshop
   description: "SAND-Math, a scalable pipeline that generates and enhances challenging math problems, enabling LLMs to achieve state-of-the-art results on difficult mathematical reasoning benchmarks like AIME25."
   image: "/assets/images/pubs/sand.png"
   url: "https://arxiv.org/abs/2507.20527"
