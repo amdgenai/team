@@ -10,6 +10,26 @@
   url: "https://github.com/RLsys-Foundation/APRIL"
   tags: ["RL", "training", "optimization"]
 
+- name: "Instella-VL"
+  description: "Open-source vision-language model combining CLIP encoder with language model for multimodal tasks"
+  url: "https://github.com/AMD-AGI/InstellaVL"
+  tags: ["VLM", "multimodal", "vision-language"]
+
+- name: "Instella-T2I"
+  description: "Text-to-image generation with 1D binary latents achieving 32× token reduction"
+  url: "https://github.com/AMD-AGI/Instella-T2I"
+  tags: ["text-to-image", "generation", "diffusion"]
+
+- name: "Instella-Math"
+  description: "Math reasoning model trained with long chain-of-thought reinforcement learning"
+  url: "https://github.com/AMD-AGI/Instella-Math"
+  tags: ["math", "reasoning", "RL"]
+
+- name: "Instella"
+  description: "Fully open 3B language models with stellar performance, trained on AMD Instinct MI300X GPUs"
+  url: "https://github.com/AMD-AGI/Instella"
+  tags: ["language-model", "3B", "pretraining"]
+
 - name: "Agent-Laboratory"
   description: "LLM agents as research assistants for automated scientific discovery"
   url: "https://github.com/SamuelSchmidgall/AgentLaboratory"

@@ -17,26 +17,26 @@ permalink: /
 <div class="news-section">
 {% for item in site.data.news %}
 <div class="news-card {{ item.background_class }}">
-  <div class="news-card__content">
+    <div class="news-card__content">
     <h3>{{ item.title }}</h3>
     <p>{{ item.excerpt }}</p>
     <a href="{{ item.url }}" class="news-card__btn">{{ item.btn_label }} →</a>
-  </div>
+    </div>
 </div>
 {% endfor %}
 </div>
 
 <section class="mission-section">
-  <div class="mission-content">
+    <div class="mission-content">
     <p>AMD GenAI advances the frontier of AI through open innovation and collaboration. We build fully open-source foundation models optimized for AMD GPUs such as MI250 and MI300, and release everything -- code, models, and training recipes -- to the public.</p>
     <p>Our mission is to empower AI researchers and engineers to train and develop cutting-edge models efficiently on AMD systems.</p>
-    <p class="small-text">
-      AMD GenAI is part of AMD. To learn more about AMD, visit
-      <a href="https://www.amd.com/en.html">AMD</a>.
-    </p>
+      <p class="small-text">
+        AMD GenAI is part of AMD. To learn more about AMD, visit
+        <a href="https://www.amd.com/en.html">AMD</a>.
+      </p>
     <img src="{{ site.baseurl }}/assets/images/amd-twa-logo-lockup.avif" alt="AMD Logo" class="mission-logo">
-  </div>
-</section>
+    </div>
+  </section>
 
 <div class="section-header">Recent Blogs</div>
 
@@ -44,7 +44,7 @@ permalink: /
 {% assign blogs = site.data.blogs | slice: 0, 3 %}
 {% for blog in blogs %}
 <div class="blog-card" style="background-image: url('{{ site.baseurl }}{{ blog.background_image }}')">
-  <a href="{{ blog.url }}" class="blog-item" target="_blank">
+    <a href="{{ blog.url }}" class="blog-item" target="_blank">
     <div class="blog-title">{{ blog.title }}</div>
     <div class="blog-meta">{{ blog.date }}</div>
     <div class="blog-excerpt">{{ blog.excerpt }}</div>
@@ -54,7 +54,7 @@ permalink: /
 </div>
 
 <div class="text-center">
-  <a href="{{ site.baseurl }}/blogs/" class="btn btn--primary">Read All Blogs</a>
+    <a href="{{ site.baseurl }}/blogs/" class="btn btn--primary">Read All Blogs</a>
 </div>
 
 <div class="section-header">Recent Publications</div>
@@ -62,19 +62,19 @@ permalink: /
 <div class="pub-grid">
 {% assign pubs = site.data.publications | slice: 0, 3 %}
 {% for pub in pubs %}
-<div class="pub-card">
-  <img src="{{ site.baseurl }}{{ pub.image }}" alt="{{ pub.title }}">
-  <div class="pub-content">
-    <span class="pub-tag">Publication</span>
-    <div class="pub-year">{{ pub.year }}</div>
-    <div class="pub-title">{{ pub.title }}</div>
-    <div class="pub-desc">{{ pub.description }}</div>
-    <a href="{{ pub.url }}" target="_blank" class="btn btn--primary">Read more</a>
-  </div>
-</div>
+    <div class="pub-card">
+    <img src="{{ site.baseurl }}{{ pub.image }}" alt="{{ pub.title }}">
+    <div class="pub-content">
+        <span class="pub-tag">Publication</span>
+        <div class="pub-year">{{ pub.year }}</div>
+        <div class="pub-title">{{ pub.title }}</div>
+        <div class="pub-desc">{{ pub.description }}</div>
+        <a href="{{ pub.url }}" target="_blank" class="btn btn--primary">Read more</a>
+    </div>
+    </div>
 {% endfor %}
 </div>
 
 <div class="text-center">
-  <a href="{{ site.baseurl }}/publications/" class="btn btn--primary">Read All Publications</a>
-</div>
+    <a href="{{ site.baseurl }}/publications/" class="btn btn--primary">Read All Publications</a>
+  </div>
