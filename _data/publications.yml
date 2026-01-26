@@ -1,3 +1,15 @@
+- title: "Learning from Online Videos at Inference Time for Computer-Use Agents"
+  year: TMLR 2025
+  description: "A framework that enables computer-use agents to learn from online video tutorials at inference time by retrieving, filtering, and converting videos into structured demonstration trajectories for dynamic in-context guidance during execution."
+  image: "/assets/images/pubs/computer_use_video.png"
+  url: "https://arxiv.org/abs/2511.04137"
+
+- title: "GEAK: Introducing Triton Kernel AI Agent & Evaluation Benchmarks"
+  year: 2025
+  description: "GEAK is an AI-driven framework for generating and evaluating Triton GPU kernels, leveraging frontier LLMs with inference-time scaling to automatically produce efficient, accurate kernels for AMD Instinct GPUs."
+  image: "/assets/images/pubs/geak.png"
+  url: "https://arxiv.org/abs/2507.23194"
+
 - title: "CaptionQA: Is Your Caption as Useful as the Image Itself?"
   year: 2025
   description: "CaptionQA is a utility-based benchmark evaluating caption quality across 4 domains with 33,027 annotated questions, revealing up to 32% gap between image and caption utility in state-of-the-art MLLMs."

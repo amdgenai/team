@@ -1,3 +1,15 @@
+- title: "GEAK-Triton v2 Family of AI Agents: Kernel Optimization for AMD Instinct GPUs"
+  excerpt: "Announcing GEAK-OptimAgentv2 and GEAK-OpenEvolve AI agents for generating Triton kernels optimized for AMD Instinct GPUs, featuring multi-offspring evolution, hardware-aware feedback, and quality-diversity search for up to 3.42× speedups."
+  date: "December 23, 2025"
+  url: "https://rocm.blogs.amd.com/artificial-intelligence/geak-agents-family/README.html"
+  background_image: "/assets/images/blog-bg-geak-v2.png"
+
+- title: "GEAK-HIP: Expanding GEAK for HIP Code Optimization"
+  excerpt: "Extending the GEAK family to native HIP code generation and optimization, enabling AI-driven kernel development for AMD Instinct GPUs with similar techniques applied to HIP kernels."
+  date: "December 23, 2025"
+  url: "https://rocm.blogs.amd.com/software-tools-optimization/geak-hip-optimizations/README.html"
+  background_image: "/assets/images/blog-bg-geak-hip.png"
+
 - title: "SAND-Math: Building a 32B Reasoning Model with Synthetic Data"
   excerpt: "Building a state-of-the-art 32B reasoning model on AMD Instinct™ MI325X GPUs using only synthetic data. SAND-MathScience-DeepSeek-Qwen32B achieves 78.33% on AIME25, surpassing Qwen3-32B, with fully open-sourced model weights, datasets, and training code."
   date: "December 06, 2025"
