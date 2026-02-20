@@ -1,3 +1,21 @@
+- title: "ImageDoctor: Diagnosing Text-to-Image Generation via Grounded Image Reasoning"
+  year: 2025
+  description: "ImageDoctor diagnoses text-to-image generation through grounded image reasoning, enabling systematic evaluation and debugging of T2I models by identifying misalignments between prompts and generated images."
+  image: "/assets/images/pubs/imagedoctor.png"
+  url: "https://arxiv.org/abs/2510.01010"
+
+- title: "XModBench: Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models"
+  year: 2025
+  description: "XModBench is a comprehensive benchmark for evaluating cross-modal capabilities and consistency in omni-language models, assessing how well models handle information across different modalities."
+  image: "/assets/images/pubs/xmodbench.png"
+  url: "https://arxiv.org/abs/2510.15148"
+
+- title: "Latent Visual Reasoning"
+  year: 2025
+  description: "Latent Visual Reasoning enables models to perform complex visual reasoning in latent space, improving efficiency and accuracy on multi-step visual reasoning tasks."
+  image: "/assets/images/pubs/latent_visual.png"
+  url: "https://arxiv.org/abs/2509.24251"
+
 - title: "Learning from Online Videos at Inference Time for Computer-Use Agents"
   year: TMLR 2025
   description: "A framework that enables computer-use agents to learn from online video tutorials at inference time by retrieving, filtering, and converting videos into structured demonstration trajectories for dynamic in-context guidance during execution."
