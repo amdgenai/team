@@ -4,11 +4,13 @@
   image: "/assets/images/pubs/imagedoctor.png"
   url: "https://arxiv.org/abs/2510.01010"
 
+
 - title: "XModBench: Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models"
   year: ICLR 2026
   description: "XModBench is a comprehensive benchmark for evaluating cross-modal capabilities and consistency in omni-language models, assessing how well models handle information across different modalities."
   image: "/assets/images/pubs/xmodbench.png"
   url: "https://arxiv.org/abs/2510.15148"
+
 
 - title: "Latent Visual Reasoning"
   year: ICLR 2026
@@ -16,11 +18,13 @@
   image: "/assets/images/pubs/latent_visual.png"
   url: "https://arxiv.org/abs/2509.24251"
 
+
 - title: "Learning from Online Videos at Inference Time for Computer-Use Agents"
   year: TMLR 2025
   description: "A framework that enables computer-use agents to learn from online video tutorials at inference time by retrieving, filtering, and converting videos into structured demonstration trajectories for dynamic in-context guidance during execution."
   image: "/assets/images/pubs/computer_use_video.png"
   url: "https://arxiv.org/abs/2511.04137"
+
 
 - title: "GEAK: Introducing Triton Kernel AI Agent & Evaluation Benchmarks"
   year: 2025
@@ -28,17 +32,20 @@
   image: "/assets/images/pubs/geak.png"
   url: "https://arxiv.org/abs/2507.23194"
 
+
 - title: "CaptionQA: Is Your Caption as Useful as the Image Itself?"
   year: 2025
   description: "CaptionQA is a utility-based benchmark evaluating caption quality across 4 domains with 33,027 annotated questions, revealing up to 32% gap between image and caption utility in state-of-the-art MLLMs."
   image: "/assets/images/pubs/captionqa.png"
-  url: "https://arxiv.org/abs/2511.21025"
+  url: "Test"
+
 
 - title: "APRIL: Active Partial Rollouts in Reinforcement Learning to Tame Long-tail Generation"
   year: 2025
-  description: "APRIL mitigates long-tail inefficiency in RL training by over-provisioning rollout requests, recycling incomplete responses, and reducing GPU idle time — achieving up to 44% throughput improvement and 8% higher accuracy across GRPO, DAPO, and GSPO algorithms."
+  description: "APRIL mitigates long-tail inefficiency in RL training by over-provisioning rollout requests, recycling incomplete responses, and reducing GPU idle time ? achieving up to 44% throughput improvement and 8% higher accuracy across GRPO, DAPO, and GSPO algorithms."
   image: "/assets/images/pubs/april.png"
   url: "https://arxiv.org/abs/2509.18521"
+
 
 - title: "SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers"
   year: NeurIPS 2025 MATH-AI Workshop
@@ -46,23 +53,27 @@
   image: "/assets/images/pubs/sand.png"
   url: "https://arxiv.org/abs/2507.20527"
 
+
 - title: "TTT-Bench: A Benchmark for Evaluating Reasoning Ability with Simple and Novel Tic-Tac-Toe-style Games"
   year: EMNLP 2025 Main Conference
-  description: "TTT-Bench uncovers the hidden blind spots of today’s smartest AI, challenging them with simple, human-intuitive games — and showing that even the best models often fail where humans excel effortlessly."
+  description: "TTT-Bench uncovers the hidden blind spots of today?s smartest AI, challenging them with simple, human-intuitive games ? and showing that even the best models often fail where humans excel effortlessly."
   image: "/assets/images/pubs/ttt.png"
   url: "https://arxiv.org/abs/2506.10209"
 
+
 - title: "TaDA: Training-free recipe for Decoding with Adaptive KV Cache Compression and Mean-centering"
   year: ACL 2025 Industry Track (Oral)
-  description: "TaDA slashes KV cache memory usage by over 70% without sacrificing accuracy — enabling longer, smarter, and more scalable LLM inference with zero retraining."
+  description: "TaDA slashes KV cache memory usage by over 70% without sacrificing accuracy ? enabling longer, smarter, and more scalable LLM inference with zero retraining."
   image: "/assets/images/pubs/TaDA.png"
   url: "https://arxiv.org/abs/2506.04642"
 
+
 - title: "Unleashing Hour-Scale Video Training for Long Video-Language Understanding"
   year: NeurIPS 2025 (Spotlight)
-  description: “Hour-LLaVA, built on the new VideoMarathon dataset, enables efficient training and inference on hour-long videos and achieves SOTA on long-form video-language tasks.”
+  description: ?Hour-LLaVA, built on the new VideoMarathon dataset, enables efficient training and inference on hour-long videos and achieves SOTA on long-form video-language tasks.?
   image: "/assets/images/pubs/long_video.png"
   url: "https://arxiv.org/abs/2506.05332"
+
 
 - title: "Self-Taught Agentic Long Context Understanding"
   year: ACL 2025 Main Conference
@@ -70,11 +81,13 @@
   image: "/assets/images/pubs/agentic_long.png"
   url: "https://arxiv.org/abs/2502.15920"
 
+
 - title: "MOVi: Training-free Text-conditioned Multi-Object Video Generation"
   year: 2025
   description: "MOVi, a training-free framework for multi-object T2V generation with LLM-guided trajectory control and attention refinement, achieving 42% better motion and object accuracy."
   image: "/assets/images/pubs/movi.png"
   url: "https://arxiv.org/abs/2505.22980"
+
 
 - title: "KeyVID: Keyframe-Aware Video Diffusion for Audio-Synchronized Visual Animation"
   year: ICCV 2025 Gen4AVC Workshop
@@ -82,14 +95,16 @@
   image: "/assets/images/pubs/keyvid.png"
   url: "https://arxiv.org/abs/2505.22981"
 
+
 - title: "Agent Laboratory: Using LLM Agents as Research Assistants"
   year: EMNLP 2025 Findings
-  description: "Agent Laboratory revolutionizes scientific discovery by automating the entire research workflow — empowering researchers to focus on ideas, not grunt work, with up to 84% lower cost and state-of-the-art results."
+  description: "Agent Laboratory revolutionizes scientific discovery by automating the entire research workflow ? empowering researchers to focus on ideas, not grunt work, with up to 84% lower cost and state-of-the-art results."
   image: "/assets/images/pubs/agent_lab.png"
   url: "https://arxiv.org/abs/2501.04227"
 
+
 - title: "SoftVQ-VAE: Efficient 1-Dimensional Continuous Tokenizer"
   year: CVPR 2025
-  description: "SoftVQ-VAE unlocks fast, efficient, and high-quality image generation with ultra-compact tokenization — delivering up to 55× faster inference and competitive FID, all with fewer training iterations."
+  description: "SoftVQ-VAE unlocks fast, efficient, and high-quality image generation with ultra-compact tokenization ? delivering up to 55? faster inference and competitive FID, all with fewer training iterations."
   image: "/assets/images/pubs/softvq.png"
   url: "https://arxiv.org/abs/2412.10958"
