@@ -71,7 +71,7 @@
   url: "https://arxiv.org/abs/2502.15920"
 
 - title: "MOVi: Training-free Text-conditioned Multi-Object Video Generation"
-  year: 2025
+  year: "ICASSP 2026"
   description: "MOVi, a training-free framework for multi-object T2V generation with LLM-guided trajectory control and attention refinement, achieving 42% better motion and object accuracy."
   image: "/assets/images/pubs/movi.png"
   url: "https://arxiv.org/abs/2505.22980"
