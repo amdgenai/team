@@ -1,3 +1,9 @@
+- title: "Test"
+  year: "test"
+  description: "Test"
+  image: ""
+  url: "Test"
+
 - title: "ImageDoctor: Diagnosing Text-to-Image Generation via Grounded Image Reasoning"
   year: ICLR 2026
   description: "ImageDoctor diagnoses text-to-image generation through grounded image reasoning, enabling systematic evaluation and debugging of T2I models by identifying misalignments between prompts and generated images."
