@@ -1,3 +1,8 @@
+- title: "Stabilizing Efficient Reasoning with Step-Level Advantage Selection"
+  year: "ACL 2026 Findings"
+  description: "We propose Step-level Advantage Selection (SAS) that operates at the reasoning step level, selectively filtering noisy or redundant reasoning steps in correct rollouts, while preserving high-confidence intermediate reasoning steps even from verifier-failed rollouts, where failures may arise from truncation or verification issues rather than incorrect reasoning."
+  image: "/assets/images/pubs/screenshot_2026-04-17_133158_-_joel_lau.png"
+  url: "https://openreview.net/pdf?id=MRR01xjYFK"
 - title: "Reliable Use of Lemmas via Eligibility Reasoning and Section‑Aware Reinforcement Learning"
   year: "ACL 2026 Main Conference"
   description: "We formalize lemma‑judging as a structured prediction task: given a statement and a candidate lemma, the model must output a precondition check and a conclusion‑utility check, from which a usefulness decision is derived. We present RULES, which encodes this specification via a two‑section output and trains with reinforcement learning plus section‑aware loss masking to assign penalty to the section responsible for errors."
