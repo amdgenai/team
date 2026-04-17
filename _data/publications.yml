@@ -23,7 +23,7 @@
   url: "https://arxiv.org/abs/2509.24251"
 
 - title: "Learning from Online Videos at Inference Time for Computer-Use Agents"
-  year: TMLR 2025
+  year: "TMLR 2026"
   description: "A framework that enables computer-use agents to learn from online video tutorials at inference time by retrieving, filtering, and converting videos into structured demonstration trajectories for dynamic in-context guidance during execution."
   image: "/assets/images/pubs/computer_use_video.png"
   url: "https://arxiv.org/abs/2511.04137"
