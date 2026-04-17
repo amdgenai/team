@@ -1,3 +1,8 @@
+- title: "LuminaSFT: Generating Synthetic Fine-Tuning Data for Small Language Models"
+  excerpt: "We introduce LuminaSFT, a synthetic SFT dataset specifically designed to improve both general-purpose and task-specific SLMs. Our experiments demonstrate that LuminaSFT supports both general-purpose fine-tuning and targeted task adaptation, offering measurable gains across multiple downstream benchmarks."
+  date: "February 24, 2026"
+  url: "https://rocm.blogs.amd.com/artificial-intelligence/luminasft/README.html"
+
 - title: "GEAK-Triton v2 Family of AI Agents: Kernel Optimization for AMD Instinct GPUs"
   excerpt: "Announcing GEAK-OptimAgentv2 and GEAK-OpenEvolve AI agents for generating Triton kernels optimized for AMD Instinct GPUs, featuring multi-offspring evolution, hardware-aware feedback, and quality-diversity search for up to 3.42× speedups."
   date: "December 23, 2025"
